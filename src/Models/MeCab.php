@@ -46,6 +46,8 @@ class MeCab
     {
         $commandCode = '';
 
+        usleep(500000);
+
         // mecabコマンドをtmpファイルに向けて実行
         exec(self::COMMAND ." ". $this->tmpFile, $this->result, $commandCode);
 
