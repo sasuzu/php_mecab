@@ -30,6 +30,7 @@ composer.json
 ## 環境
 ```
 Linux
+PHP 7.4.*
 ```
 ## サンプル
 ```
