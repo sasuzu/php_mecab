@@ -1,0 +1,9 @@
+version: '3'
+services:
+  php:
+    build: ./php
+    container_name: php_mecab
+    volumes:
+      - ./php/php.ini:/usr/local/etc/php/php.ini
+      - ./src/Models/MeCab.php:/home/sample/MeCab.php
+      - ./index.php:/home/sample/index.php
