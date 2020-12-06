@@ -5,4 +5,3 @@ RUN apt-get update \
        mecab libmecab-dev mecab-ipadic-utf8
 
 WORKDIR /home/sample
-

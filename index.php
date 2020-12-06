@@ -7,3 +7,4 @@
    $result = $mecab->parse("桜が咲いたら約束の場所で");
 
    print_r($result);
+   
